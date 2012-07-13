@@ -261,6 +261,8 @@ alias mancn='man -M /usr/share/man/zh_CN'
 alias grep='grep --color=auto'
 alias valgrind='valgrind --leak-check=full --show-reachable=yes --log-file=mem_debug'
 alias gv='gpicview'
+alias more='less'
+alias dstat='dstat -cdlmnpsy'
 
 #默认打开的编辑器
 alias -s c=vim
