@@ -321,6 +321,7 @@ URCORNER=${altchar[k]:--}
 
 # source-hilight高亮输出功能 {
 # 脚本：将支持的文件类型加入到default.lang文件中
+# 参考：~/tool/add_lang_to_source_hilight.sh
 #!/bin/bash
 # for  i in `cd /usr/share/source-highlight/ && ls *.lang`
 #   do echo "include \"$i\"" >> /usr/share/source-highlight/default.lang
