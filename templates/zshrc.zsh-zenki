@@ -34,6 +34,7 @@ DISABLE_AUTO_UPDATE="true"
 # plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source $ZSH/incr.zsh
 # source $ZSH/extra_config.sh
 
 # Customize to your needs...
