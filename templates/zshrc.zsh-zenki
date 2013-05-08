@@ -33,8 +33,8 @@ ZSH_THEME="zenki"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=(git)
 
+source $ZSH/custom/extra_config.sh
 source $ZSH/oh-my-zsh.sh
-source $ZSH/extra_config.sh
 
 # Customize to your needs...
 
