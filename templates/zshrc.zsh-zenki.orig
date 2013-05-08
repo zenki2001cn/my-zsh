@@ -35,7 +35,11 @@ DISABLE_AUTO_UPDATE="true"
 
 source $ZSH/custom/extra_config.sh
 source $ZSH/oh-my-zsh.sh
+<<<<<<< HEAD
+=======
 source $ZSH/incr.zsh
+# source $ZSH/extra_config.sh
+>>>>>>> dcb2c1f485cbf42e31c0313cc764862e9dfbbc12
 
 # Customize to your needs...
 
