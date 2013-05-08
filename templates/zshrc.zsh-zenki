@@ -33,8 +33,8 @@ DISABLE_AUTO_UPDATE="true"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # plugins=(git)
 
-source $ZSH/custom/extra_config.sh
 source $ZSH/oh-my-zsh.sh
+# source $ZSH/custom/extra_config.zsh
 source $ZSH/incr.zsh
 
 # Customize to your needs...

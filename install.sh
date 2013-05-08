@@ -20,9 +20,9 @@ function install_zsh()
     echo "install oh-my-zsh..."
     rm -f ~/.zshrc
 
-    # cp -r $OHMYZSH_DIR ~/.oh-my-zsh
-    ln -s  $OHMYZSH_DIR/home/config/oh-my-zsh/templates/zshrc.zsh-zenki ~/.zshrc
-    ln -s  $OHMYZSH_DIR/home/config/oh-my-zsh ~/.oh-my-zsh
+    cp -r $OHMYZSH_DIR ~/.oh-my-zsh
+    ln -s  $OHMYZSH_DIR/templates/zshrc.zsh-zenki ~/.zshrc
+    # ln -s  $OHMYZSH_DIR/home/config/oh-my-zsh ~/.oh-my-zsh
     chsh -s /bin/zsh
     echo "oh-my-zsh real path is --> $OHMYZSH_DIR"
 }
