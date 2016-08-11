@@ -328,7 +328,8 @@ URCORNER=${altchar[k]:--}
 #   do echo "include \"$i\"" >> /usr/share/source-highlight/default.lang
 # done
 PAGER='less -X -M'
-export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
+# export LESSOPEN="| /usr/bin/src-hilite-lesspipe.sh %s"
+export LESSOPEN="| /usr/bin/source-highlight-esc.sh %s"
 export LESS=' -R '
 
 hlcat(){ less $*|cat }
